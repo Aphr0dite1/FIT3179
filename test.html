@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section id="plot1">
+      <h2 class="heading">Happiness vs GDP of countries</h2>
+      <div id="bubble">
+          <div id="bubble_des">
+              <p>The <span class="hilight">Bubble Plot</span>
+                  on the right shows the relationship between the <span class="hilight">Life Satisfaction</span>
+                  and the <span class="hilight">GDP per capita</span> of the Countries in the world.
+              </p>
+              <br>
+              <p>Countries which plot in red is located in <span class="hilight">North America</span>, 
+                  plot in purple is located in <span class="hilight">South America</span>, 
+                  plot in orange is located in <span class="hilight">Europe</span>, 
+                  plot in light-blue is located in <span class="hilight">Africa</span>,
+                  plot in dark blue is located in <span class="hilight">Asia</span>, 
+                  whereas plot in brown is located in <span class="hilight">Oceania</span>.
+              </p>
+          </div>
+          <div id="bubble_plot"></div>
+      </div> 
+  </section>
+
+  <script type="text/javascript">
+    var spec1 = "https://raw.githubusercontent.com/Mystcal/3179/main/bubble_plot.vg.json";
+    vegaEmbed('#bubble_plot', spec1,{"actions": false}).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    </script>
+  </body>
+</html>
+
+
+
