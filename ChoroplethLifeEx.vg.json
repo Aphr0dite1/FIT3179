@@ -5,7 +5,7 @@
     "projection": {"type": "equalEarth"},
     "data": {
       "url": "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/ne_110m.json",
-      "format": {"type": "topojson", "feature": "ne_110m"}
+      "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
     },
     "background": "skyblue",
 
