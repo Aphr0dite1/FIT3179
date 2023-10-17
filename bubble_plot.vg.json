@@ -4,7 +4,7 @@
     "height": 400,
     "title": "GDP vs Life Expectancy",
     "data": {
-    "url": "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/life_ex_vs_gdp.csv"
+    "url": "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/life-ex-vs-gdp.csv"
     },
     "background": "rgb(241,241,241)",
     "transform": [{"filter": "Continent_selection == null || datum.Continent == Continent_selection"},
