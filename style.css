@@ -96,7 +96,7 @@ html{
     margin-bottom: 120px;
 }
 #bubble_des{
-    display:block;
+    display: flex;
     flex-direction: column;
     text-align: justify;
     padding: 150px;
