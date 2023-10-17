@@ -7,11 +7,11 @@
     "url": "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/FinalLifeExpectancyData.csv"
     },
     "background": "rgb(241,241,241)",
-    "transform": [{"filter": "Country_selection == null || datum.Continent == Country_selection"},
+    "transform": [{"filter": "Continent_selection == null || datum.Continent == Continent_selection"},
                     {"filter": "datum.Population > Population_Above"}],
     "params":[
         {
-        "name": "Country_selection",
+        "name": "Continent selection",
         "bind": {
             "input": "select",
             "options": [
@@ -32,7 +32,7 @@
             "Asia",
             "Oceania"
             ],
-            "name": "Country_Selection"
+            "name": "Continent Selection "
             }
         },
         {"name": "Population_Above","value": 0,
@@ -48,7 +48,7 @@
         "x": {
             "field": "GDP",
             "type": "quantitative",
-            "title": "GDP",
+            "title": "GDP per Capita",
             "axis": {"tickCount": 7},
             "scale": {"type":"log","domain":[1,10000000]}
             },
@@ -92,7 +92,7 @@
             },
         "tooltip": [
             {"field":"Country", "type": "nominal"},
-            {"field": "GDP","title":"GDP", "type": "quantitative", "format":","},
+            {"field": "GDP","title":"GDP per capita", "type": "quantitative", "format":","},
             {"field": "Life_expectancy","title":"Life expectancy", "type": "quantitative", "format":","},
             {"field": "Population", "type": "quantitative", "format": ","}
         ]
