@@ -30,21 +30,7 @@
       <div id="map">
           <div id="choropleth_map"></div>
           <div id="map_des">
-          <p>The <span class="hilight">Choropleth Map</span> 
-              on the left shows the <span class="hilight">Life Satisfaction</span> 
-              of the <span class="hilight">Countries</span> in the world in year <span class="hilight">2020</span>.</p>
-              <br>
-          <p>It shows that <span class="hilight">Finland</span>  
-              is the <span class="hilight">happiest</span>  country in the world, 
-              the <span class="hilight">2nd happiest</span> is followed by
-              <span class="hilight">Denmark</span> .
-          </p>
-          <br>
-          <p>Whereas, <span class="hilight">Afghanistan</span> is the 
-              <span class="hilight">most unhappy</span> country in the world,
-              The <span class="hilight">2nd most unhappy</span> country is 
-              <span class="hilight">Lebanon</span>.
-          </p>
+            <p>nothing</p>
           </div>
       </div>
   </section>
@@ -62,15 +48,15 @@
 
 
 <script type="text/javascript">
-  var spec1 = "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/ChoroplethLifeEx.vg.json";
-  vegaEmbed('#choropleth_map', spec1,{"actions": false}).then(function(result) {
+  var spec2 = "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/ChoroplethLifeEx.vg.json";
+  vegaEmbed('#choropleth_map', spec2,{"actions": false}).then(function(result) {
   // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   </script>
 
   <script type="text/javascript">
-    var spec2 = "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/bubble_plot.vg.json";
-    vegaEmbed('#bubble_plot', spec2,{"actions": false}).then(function(result) {
+    var spec1 = "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/bubble_plot.vg.json";
+    vegaEmbed('#bubble_plot', spec1,{"actions": false}).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
   </script>
