@@ -90,8 +90,8 @@ html{
     display: flex;
 }
 #bubble_plot{
-    width: 800px;
-    height: 400px;
+    width: 80%;
+    height: 40%;
     margin-right: 80px;
     margin-bottom: 120px;
 }
