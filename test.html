@@ -29,9 +29,8 @@
       <div class="main">
           <h1 class="headings">WORLD'S </h1>
           <p class="phead">Life Expectancy and factors affecting them</p>
-          <p class="pbody">This visualisation explores which Countries up to 2020 
-              have the highest life expectancy and how does this correlate with their respective nation's GDP
-              and the life expectancy of the people of the nation
+          <p class="pbody">This visualisations explores which Countries up to 2020 
+              have the highest life expectancy and how does this correlate with their respective nation's GDP.
           </p>
       </div>
     </section>
@@ -55,10 +54,12 @@
           </div>
           <div id="bubble_plot"></div>
       </div> 
+      <button id="back-to-top"></button>
   </section>
 
 
-<script type="text/javascript">
+
+  <script type="text/javascript">
   var spec2 = "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/ChoroplethLifeEx.vg.json";
   vegaEmbed('#choropleth_map', spec2,{"actions": false}).then(function(result) {
   // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -71,6 +72,30 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
   </script>
+
+  <script>
+    // Get a reference to the button element
+    var backToTopButton = document.getElementById('back-to-top');
+    // Add a scroll event listener
+    window.addEventListener('scroll', function() {
+        // Check if the user has scrolled down 300 pixels from the top
+        if (window.pageYOffset > 300) {
+            // If yes, show the button
+            backToTopButton.style.display = 'block';
+        } else {
+            // If no, hide the button
+            backToTopButton.style.display = 'none';
+        }
+    });
+    // Add a click event listener to scroll to the top when the button is clicked
+    backToTopButton.addEventListener('click', function() {
+        // Scroll to the top of the page smoothly
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
 </body>
 </html>
 

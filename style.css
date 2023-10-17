@@ -132,6 +132,7 @@ html{
     background-color: lightgray;
 }
 .heading{
+    font-family: "Century", sans-serif;
     font-family: century;
     font-size: 3rem;
     text-align: center;
@@ -151,4 +152,21 @@ html{
     flex-direction: column;
     text-align: justify;
     padding: 150px;
+}
+
+/* back to the top button */
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px; /* Set the width of your image */
+    height: 50px; /* Set the height of your image */
+    background-image: url('button.png'); /* Replace 'path/to/your/image.png' with the actual path to your image file */
+    background-size: cover; /* Ensure the image covers the div */
+    cursor: pointer;
+}
+
+#back-to-top:hover {
+    background-color: lightgrey;
 }
