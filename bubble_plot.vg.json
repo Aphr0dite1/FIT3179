@@ -4,7 +4,7 @@
     "height": 400,
     "title": "GDP vs Life Expectancy",
     "data": {
-    "url": "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/FinalLifeExpectancyData.csv"
+    "url": "https://raw.githubusercontent.com/Aphr0dite1/3179/main/FinalLifeExpectancyData.csv"
     },
     "background": "rgb(241,241,241)",
     "transform": [{"filter": "Continent_selection == null || datum.Continent == Continent_selection"},
@@ -49,7 +49,7 @@
         "x": {
             "field": "GDP",
             "type": "quantitative",
-            "title": "GDP per Capita",
+            "title": "GDP",
             "axis": {"tickCount": 7},
             "scale": {"type":"log","domain":[1,10000000]}
             },
