@@ -39,5 +39,11 @@
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
       {"field": "Life_expectancy", "type": "quantitative", "title": "Life Expectancy"}
     ]
+  },
+  "config": {
+    "geoshape": {
+      "projection": {"signal": "zoom"},
+      "pan": {"signal": "pan"}
+    }
   }
 }
