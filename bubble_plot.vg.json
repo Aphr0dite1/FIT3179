@@ -50,11 +50,11 @@
             "type": "quantitative",
             "title": "GDP",
             "axis": {"tickCount": 7},
-            "scale": {"type":"log","domain":[1,100000]}
+            "scale": {"type":"log","domain":[1,10000000]}
             },
         "y": {
             "field": "Life_expectancy",
-            "title": "Life_Expectancy",
+            "title": "Life Expectancy",
             "type": "quantitative"
             },
         "color": {
