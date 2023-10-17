@@ -17,7 +17,7 @@
                     "url": "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/FinalLifeExpectancyData.csv"
                 },
                 "key": "Country",
-                "fields": ["Life expectancy"]
+                "fields": ["Life_expectancy"]
             }
         }
     ],
@@ -25,7 +25,7 @@
     "mark": {"type": "geoshape","stroke": "white"},
     "encoding": {
       "color": {
-        "field": "Life expectancy",
+        "field": "Life_expectancy",
         "type": "quantitative",
         "scale": {
           "type": "threshold",
@@ -36,7 +36,7 @@
 
       "tooltip": [
         {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-        {"field": "Life expectancy", "type": "quantitative", "title": "Life Expectancy"}
+        {"field": "Life_expectancy", "type": "quantitative", "title": "LifeExpectancy"}
       ]
     }
 }
