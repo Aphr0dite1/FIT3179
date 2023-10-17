@@ -1,4 +1,4 @@
-Country,Life_expectancy ,Alcohol, BMI ,GDP,Population,Continent
+Country,Life_expectancy ,Alcohol, BMI ,GDP_per_capita,Population,Continent
 Afghanistan,58.19,0.014,15.519,340.02,9972259.813,Asia
 Albania,75.16,4.849,49.069,2119.73,696911.625,Europe
 Algeria,73.62,0.407,48.744,2847.85,21649827.44,Africa
