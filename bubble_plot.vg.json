@@ -11,7 +11,7 @@
                     {"filter": "datum.Population > Population_Above"}],
     "params":[
         {
-        "name": "Continent selection",
+        "name": "Continent_selection",
         "bind": {
             "input": "select",
             "options": [
@@ -32,15 +32,16 @@
             "Asia",
             "Oceania"
             ],
-            "name": "Continent Selection "
+            "name": "Continent Selection:  "
             }
         },
         {"name": "Population_Above","value": 0,
-                        "bind": {"input": "range",
-                        "min": 0,
-                        "max": 100000000,
-                        "step": 1000000,
-                        "name": "Minimum Population: "}
+                        "bind": {
+                            "input": "range",
+                            "min": 0,
+                            "max": 100000000,
+                            "step": 1000000,
+                            "name": "Minimum Population: "}
                     }
         ],
     "mark": "circle",
@@ -92,7 +93,6 @@
             },
         "tooltip": [
             {"field":"Country", "type": "nominal"},
-            {"field": "Continent", "type": "nominal"},
             {"field": "GDP","title":"GDP", "type": "quantitative", "format":","},
             {"field": "Life_expectancy","title":"Life expectancy", "type": "quantitative", "format":","},
             {"field": "Population", "type": "quantitative", "format": ","}
