@@ -32,24 +32,23 @@
             "Asia",
             "Oceania"
             ],
-            "name": "Continent Selection:  "
+            "name": "Continent Selection "
             }
         },
         {"name": "Population_Above","value": 0,
-                        "bind": {
-                            "input": "range",
-                            "min": 0,
-                            "max": 100000000,
-                            "step": 1000000,
-                            "name": "Minimum Population: "}
+                        "bind": {"input": "range",
+                        "min": 0,
+                        "max": 100000000,
+                        "step": 1000000,
+                        "name": "Minimum Population: "}
                     }
         ],
     "mark": "circle",
     "encoding": {
         "x": {
-            "field": "GDP_per_capita",
+            "field": "GDP",
             "type": "quantitative",
-            "title": "GDP",
+            "title": "GDP per Capita",
             "axis": {"tickCount": 7},
             "scale": {"type":"log","domain":[1,10000000]}
             },
