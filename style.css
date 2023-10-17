@@ -91,8 +91,8 @@ html{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 80px;
-    background-color: lightslategrey;
+    padding: 50px;
+    background-color: #A8B3BD;
     
 }
 .heading{
@@ -106,10 +106,11 @@ html{
 }
 #choropleth_map{
     width: 100%;
-    height: 100%;
+    height: 1000%;
     border: 10px solid gray;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    stroke: gray;
     
 }
 #map_des{
@@ -118,7 +119,7 @@ html{
     text-align: justify;
     padding: 150px;
 }
-.hilight{
+.custom_bold{
     font-size: larger;
     font-weight: bold;
 }
