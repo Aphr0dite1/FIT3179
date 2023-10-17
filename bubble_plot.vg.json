@@ -11,7 +11,7 @@
                     {"filter": "datum.Population > Population_Above"}],
     "params":[
         {
-        "name": "Country_selection",
+        "name": "Country selection",
         "bind": {
             "input": "select",
             "options": [
@@ -32,7 +32,7 @@
             "Asia",
             "Oceania"
             ],
-            "name": "Country_Selection "
+            "name": "Country Selection "
             }
         },
         {"name": "Population_Above","value": 0,
