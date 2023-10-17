@@ -1,0 +1,194 @@
+﻿Country,Life_expectancy ,GDP_per_capita,Population,Continent
+Afghanistan,58.19,340.02,9972259.813,Asia
+Albania,75.16,2119.73,696911.625,Europe
+Algeria,73.62,2847.85,21649827.44,Africa
+Angola,49.02,1975.14,10147099.19,Europe
+Antigua and Barbuda,75.06,9759.31,0,Africa
+Argentina,75.16,6998.58,20121204.5,South America
+Armenia,73.4,1999.99,1015164.625,Asia
+Australia,81.81,34637.57,4587009.875,Oceania
+Austria,81.48,33827.48,6474879.875,Europe
+Azerbaijan,70.73,3302.95,2157370.5,Asia
+Bahamas,74.29,0,0,North America
+Bahrain,75.73,11191.25,0,Asia
+Bangladesh,69.3,443.56,42985163.88,Asia
+Barbados,74.36,12017.1,0,North America
+Belarus,69.91,3811.53,6371866.813,Europe
+Belgium,80.68,16915.31,2884042.563,Europe
+Belize,69.27,3933.01,170392.875,Africa
+Benin,57.57,561.17,3942978.938,Africa
+Bhutan,66.16,1353.99,492584.9375,Asia
+Bolivia (Plurinational State of),67.71,0,0,South America
+Bosnia and Herzegovina,75.97,2245.03,1986993.063,Europe
+Botswana,56.05,4498.29,1063867.375,Africa
+Brazil,73.38,6143.16,88128071.25,South America
+Brunei Darussalam,76.49,19744.81,0,Asia
+Bulgaria,72.85,4938.98,5290923.938,Europe
+Burkina Faso,55.64,410.37,6143694.813,Africa
+Burundi,55.54,137.82,3915446.688,Africa
+CÃ´te d'Ivoire,50.39,0,0,Africa
+Cabo Verde,72.52,2023.54,292600.25,Africa
+Cambodia,64.34,466.2,7145967.438,Asia
+Cameroon,54.02,781.02,9967291.938,Africa
+Canada,81.69,29382.91,11364053.81,North America
+Central African Republic,48.51,363.06,2016546.125,Africa
+Chad,50.39,484.79,4114092.063,Africa
+Chile,79.45,6202.34,14671763.94,Africa
+China,74.26,2345.3,321812.0625,Asia
+Colombia,73.29,3321.66,31767432.63,Africa
+Comoros,61.58,630.38,532200.6875,Africa
+Congo,59.04,0,0,Africa
+Cook Islands,0,0,0,Oceania
+Costa Rica,78.59,3957.23,2309299.438,South America
+Croatia,76.12,9056.78,1159772.375,Europe
+Cuba,77.98,3180.43,0,North America
+Cyprus,79.68,13898.89,390274.375,Europe
+Czechia,76.77,0,0,Europe
+Democratic People's Republic of Korea,69.19,0,0,Asia
+Democratic Republic of the Congo,55.69,0,0,Africa
+Denmark,79.26,33067.41,4260081.375,Europe
+Djibouti,60.76,898,634116.1875,Africa
+Dominica,0,722.76,0,North America
+Dominican Republic,72.34,3509.5,4448642.688,North America
+Ecuador,74.73,2005.35,8710592.063,South America
+Egypt,71.5,0,0,Africa
+El Salvador,71.74,2517.83,2930826.5,North America
+Equatorial Guinea,55.31,7902.41,556765.3125,Africa
+Eritrea,60.69,259.4,2071919.333,Africa
+Estonia,74.94,8340.43,791848.6875,Europe
+Ethiopia,59.11,264.97,43950760.75,Africa
+Fiji,68.71,2947.61,650205.125,Oceania
+Finland,80.71,25268.65,3493082.313,Europe
+France,82.22,26465.55,27581733.13,Europe
+Gabon,62.24,5179.26,1007302.313,Africa
+Gambia,59.46,0,0,Africa
+Georgia,73.51,2158.28,10152.375,Europe
+Germany,81.18,24337.75,38757347.44,Europe
+Ghana,60.86,834.38,11534782.63,Africa
+Greece,81.22,16454.24,1550208.438,Europe
+Grenada,73.29,6259.52,0,North America
+Guatemala,71.73,2365.83,5933907.5,North America
+Guinea,56.01,279.46,4252798.938,Africa
+Guinea-Bissau,55.37,384.21,981883.1875,Africa
+Guyana,65.64,1783.88,494437.25,South America
+Haiti,59.87,434.36,3852657.688,North America
+Honduras,72.99,1421.79,2832386.563,Europe
+Hungary,73.83,8513.64,1604902.25,Europe
+Iceland,82.44,30159.5,186177.625,Europe
+India,65.42,837.92,421467690.9,Asia
+Indonesia,67.56,1669.12,116555259.4,Asia
+Iran (Islamic Republic of),73.86,0,0,Asia
+Iraq,70.36,3542.56,18572840.81,Asia
+Ireland,80.15,33835.27,3599794.563,Europe
+Israel,81.3,18860.48,27862.875,Asia
+Italy,82.19,21234.78,27643788.94,Europe
+Jamaica,74.29,2509.55,1500309.125,North America
+Japan,82.54,24892.54,97384.0625,Asia
+Jordan,72.99,1822.63,4895075.688,Asia
+Kazakhstan,66.76,4040.59,8340547.438,Asia
+Kenya,57.48,716.77,16826787.63,Africa
+Kiribati,65.15,1175.29,35919.9375,Oceania
+Kuwait,73.84,31914.38,0,Asia
+Kyrgyzstan,69.08,0,0,Asia
+Lao People's Democratic Republic,62.38,0,0,Asia
+Latvia,73.73,7951.82,1174562.688,Europe
+Lebanon,74.2,4696.19,2489104.5,Africa
+Lesotho,48.78,794.52,1200527.563,Africa
+Liberia,57.53,246.28,2788942.625,Africa
+Libya,72.49,4598.16,0,Africa
+Lithuania,72.81,9007.46,1926212.125,Europe
+Luxembourg,80.78,53257.01,265276.375,Europe
+Madagascar,62.74,314.04,10950267.44,Africa
+Malawi,49.89,237.5,6700263.063,Africa
+Malaysia,73.76,4904.94,11529155.81,Asia
+Maldives,75.54,3818.3,3334.25,Asia
+Mali,54.94,530.51,5781492.875,Africa
+Malta,80.36,10114.8,224742.4375,Europe
+Marshall Islands,0,3617.75,0,Oceania
+Mauritania,62.8,635.05,1262286.188,Africa
+Mauritius,72.71,5299.58,663332.875,Africa
+Mexico,75.72,5179.33,27585265.19,South America
+Micronesia (Federated States of),68.2,0,0,Oceania
+Monaco,0,0,0,Europe
+Mongolia,65.89,1984.69,2037470.688,Asia
+Montenegro,74.5,4676.51,329668.1875,Europe
+Morocco,72.16,1936.39,20591653.94,Africa
+Mozambique,53.39,365.07,11729745.94,Africa
+Myanmar,64.2,616.18,26015702,Asia
+Namibia,60.4,3042.6,1025527.125,Africa
+Nauru,0,136.18,0,Oceania
+Nepal,66.48,395.33,14633755.56,Asia
+Netherlands,81.13,34964.72,9775704.375,Europe
+New Zealand,81.34,14775.55,0,Oceania
+Nicaragua,73.45,957.9,1999846.938,North America
+Niger,56.98,259.78,11240718.94,Africa
+Nigeria,51.36,1360.14,70877003.06,Africa
+Niue,0,0,0,Oceania
+Norway,81.79,27434.95,2614432.313,Europe
+Oman,74.84,7621.31,0,Asia
+Pakistan,64.5,666.11,69027961.81,Asia
+Palau,0,1932.12,292,Oceania
+Panama,76.49,5417.77,1955021.875,North America
+Papua New Guinea,61.68,758.1,4813446,Africa
+Paraguay,73.11,1983.4,3299080.625,South America
+Peru,73.66,2928.54,16854321.69,South America
+Philippines,67.58,1397.14,37265400.31,Asia
+Poland,75.65,6792.56,16053249.63,Europe
+Portugal,79.99,11598.63,1032225.375,Europe
+Qatar,77.03,40748.44,0,Asia
+Republic of Korea,80.49,0,0,Asia
+Republic of Moldova,69.98,0,0,Europe
+Romania,74.05,4258.94,9206345.625,Europe
+Russian Federation,67.76,6545.14,59762085.63,Europe
+Rwanda,59.31,300.02,3735506.563,Africa
+Saint Kitts and Nevis,0,0,0,North America
+Saint Lucia,73.6,0,0,North America
+Saint Vincent and the Grenadines,73.48,0,0,North America
+Samoa,73.62,2121.62,131440.125,Oceania
+San Marino,0,0,0,North America
+Sao Tome and Principe,65.16,771.03,108853.9375,Africa
+Saudi Arabia,73.47,10689.05,0,Asia
+Senegal,62.57,274.61,5413842.688,Africa
+Serbia,73.96,3674.54,3608279.875,Europe
+Seychelles,72.38,6496.3,61543.8125,Africa
+Sierra Leone,46.11,271.51,3336264.563,Africa
+Singapore,81.48,32790.11,0,Asia
+Slovakia,74.75,0,0,Europe
+Slovenia,79.73,11441.04,401279.0625,Europe
+Solomon Islands,67.71,801.91,329044.1875,Oceania
+Somalia,53.32,297.47,0,Africa
+South Africa,57.5,4869.43,29213839.47,Africa
+South Sudan,53.88,1092.23,3750827.125,Africa
+Spain,82.07,17093.46,26542854.13,Europe
+Sri Lanka,73.4,1040.11,10844.8125,Asia
+Sudan,61.83,1192.8,18046515.13,Africa
+Suriname,70.08,4781.22,190916.625,South America
+Swaziland,51.33,2165.09,457303.0625,Africa
+Sweden,82.52,29334.99,5514868.313,Europe
+Switzerland,82.33,57362.87,5913241.813,Europe
+Syrian Arab Republic,70.85,1087.44,6741444.813,Asia
+Tajikistan,66.66,335.84,4751355,Asia
+Thailand,73.08,3494.78,31170509.5,Asia
+The former Yugoslav republic of Macedonia,74.11,0,0,Europe
+Timor-Leste,64.76,551.71,460195.625,Asia
+Togo,56.66,317.2,3722045.563,Africa
+Tonga,72.53,1981.56,26589.8125,Oceania
+Trinidad and Tobago,71.07,7741.75,776133.125,North America
+Tunisia,74.36,3044.08,3274493.188,Africa
+Turkey,73.91,3983.92,33501352.81,Asia
+Turkmenistan,64.62,2511.61,2635550.188,Asia
+Tuvalu,0,3542.14,1819,Oceania
+Uganda,55.71,421.05,15540587.13,Africa
+Ukraine,69.94,1577.29,10004933.25,Europe
+United Arab Emirates,75.7,22110.37,0,Asia
+United Kingdom of Great Britain and Northern Ireland,80.79,0,0,Europe
+United Republic of Tanzania,56.01,0,0,Africa
+United States of America,78.06,0,0,North America
+Uruguay,76.08,7192.58,2396771.125,South America
+Uzbekistan,68.03,651.09,903631.6875,Asia
+Vanuatu,71.39,2000.25,123096.1875,Oceania
+Venezuela (Bolivarian Republic of),73.39,0,0,South America
+Viet Nam,74.78,0,0,Asia
+Yemen,63.86,0,0,Asia
+Zambia,53.91,811.81,6260246.438,Africa
+Zimbabwe,50.49,410.98,8021343.063,Africa
