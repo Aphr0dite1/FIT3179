@@ -155,6 +155,35 @@ html{
     padding: 150px;
 }
 
+/* Linear reg */
+#plot2{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: lightcyan;
+}
+.heading{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    padding: 40px;
+}
+#linear{
+    display: flex;
+}
+#linear_reg{
+    width: 800px;
+    height: 400px;
+    margin-left: 140px;
+}
+#linear_des{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 180px;
+}
+
 /* back to the top button */
 #back-to-top {
     display: none;

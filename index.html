@@ -73,10 +73,22 @@
           </div>
           <div id="bubble_plot"></div>
       </div> 
-      <button id="back-to-top"></button>
-        <p>This visualisation is created by <a href ="https://github.com/Aphr0dite1">Khoo Cheok Mun</a> The data is from multiple files found on <a href ="https://www.kaggle.com/" target="_blank">Kaggle</a></p>
+      
       
   </section>
+
+  <section id="plot2">
+    <h2 class="heading">BMI vs Life Expectancy</h2>
+    <div id="linear">
+        <div id="linear_reg"></div>
+        <div id="linear_des">
+            <p>jfyh</p>
+
+        </div>
+        <button id="back-to-top"></button>
+        <p>This visualisation is created by <a href ="https://github.com/Aphr0dite1">Khoo Cheok Mun</a> The data is from multiple files found on <a href ="https://www.kaggle.com/" target="_blank">Kaggle</a></p>
+    </div> 
+</section>
 
 
 
@@ -90,6 +102,13 @@
   <script type="text/javascript">
     var spec1 = "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/bubble_plot.vg.json";
     vegaEmbed('#bubble_plot', spec1,{"actions": false}).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
+
+  <script type="text/javascript">
+    var spec3 = "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/linear_reg.vg.json";
+    vegaEmbed('#linear_reg', spec3,{"actions": false}).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
   </script>

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 400,
+  "title": "BMI vs Life Expectancy",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Aphr0dite1/FIT3179/main/life-ex-vs-gdp.csv"
+  },
+  "background": "#E8E8E8",
+
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "color": "yellowgreen"
+      },
+      "encoding": {
+        "x": {
+          "field": "BMI",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Life_expectancy",
+          "type": "quantitative"
+        },
+        "tooltip": [
+            {"field":"Country", "type": "nominal"},
+            {"field": "BMI","title":"BMI", "type": "quantitative", "format":","},
+            {"field": "Life_expectancy","title":"Life expectancy", "type": "quantitative","format":","},
+            {"field": "Population", "type": "quantitative", "format": ","}
+          ]
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "firebrick"
+      },
+      "transform": [
+        {
+          "regression": "Life_expectancy",
+          "on": "BMI"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "BMI",
+          "title": "Body Mass Index (BMI)",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Life_expectancy",
+          "title": "Life Expectancy",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "Life_expectancy",
+          "on": "BMI",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {
+        "text": {"type": "nominal", "field": "R2"}
+      }
+    }
+  ]
+}
